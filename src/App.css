@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+@font-face {
+  font-family: Bloody;
+  src: url('./BloodyTerror-GOW9Z.ttf');
+}
+.App p
+{
+  font-family: Bloody;
+}

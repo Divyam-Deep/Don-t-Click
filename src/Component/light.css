@@ -1,0 +1,47 @@
+.Light
+{
+   position: relative;
+   min-height: 100vh;
+   background-image: url(./ghostb.jpg);
+   background-size: 100%;
+   background-position-y: -100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.Light h2
+{
+    color: #fff;
+    font-size: 10em;
+    cursor: pointer;
+    letter-spacing: 20px;
+}
+.light-color
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: radial-gradient(circle at var(--x) var(--y), transparent 10% , rgba(0, 0, 0, 0.95)20%);
+}
+@font-face {
+    font-family: Bloody;
+    src: url('../BloodyTerror-GOW9Z.ttf');
+  }
+  .App h2
+  {
+    font-family: Bloody;
+  }
+  .Light img
+  {
+    width: 250px;
+    height: 250px;
+    margin-top: 150px;
+  }
+  .inner-cursor
+  {
+   
+  }
